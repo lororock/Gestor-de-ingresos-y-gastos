@@ -42,7 +42,7 @@ input {
     color: #fff;
 }
 
-.ingreso {
+.ingresos {
     border-radius: 10px;
     margin: auto;
     margin-top: 10px;
@@ -51,7 +51,7 @@ input {
     background-color: rgb(80, 172, 37);
 }
 
-.egreso {
+.egresos {
     border-radius: 10px;
     margin: auto;
     margin-top: 10px;
@@ -97,7 +97,7 @@ input {
     background: linear-gradient(344deg, rgba(122, 118, 147, 1) 0%, rgba(38, 35, 53, 1) 100%);
     width: 100%;
     height: 50px;
-    padding-bottom: 20px;
+    padding: 10px;
 
 }
 
@@ -149,4 +149,8 @@ input {
     height: 600px;
     width: 100%;
     background-color: rgb(247, 247, 247);
+}
+
+.verde{
+    background-color: aqua;
 }

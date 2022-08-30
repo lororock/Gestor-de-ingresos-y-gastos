@@ -1,5 +1,4 @@
-
-function changeColor(e){
+ changeColor = e =>{
     let color = e.value;
-    e.style.color = color;
+    e.style.backgroundColor = color;
 }

@@ -1,6 +1,6 @@
 const ingresos = [
   new Ingreso("Salario", 2500),
-  new Ingreso("Venta de computador", 35),
+  new Ingreso("Venta de computador", 3500),
 ];
 
 const egresos = [

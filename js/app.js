@@ -105,7 +105,7 @@ const crearEgresosHTML = (egreso) =>{
   <div class="elemento">
     <div class="elemento_descripcion">${egreso.descripcion}</div>
     <div class="derecha">
-        <div class="elemento_valor">- ${formatoMoneda(egreso.valor)}</div>
+        <div class="elemento_val">- ${formatoMoneda(egreso.valor)}</div>
         <div class="elemento_porcentaje">${formatoPorcentaje(egreso.valor/totalEgresos())}</div>
     </div>
     <div class="elemento_eliminar">

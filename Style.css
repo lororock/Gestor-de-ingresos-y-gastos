@@ -112,7 +112,13 @@ input {
     text-align: right;
     width: 30%;
 }
+.verde{
+    background-color: green;
+}
 
+.rojo{
+    background-color: red;
+}
 .agregar-2 {
     width: 20%;
 }
@@ -145,15 +151,56 @@ input {
 }
 
 .footer {
-    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 650px;
     width: 100%;
     background-color: rgb(247, 247, 247);
 }
 
-.verde{
-    background-color: green;
+.ingreso{
+    text-align: center;
+    width: 50%;
+    
+}
+.egreso{
+    text-align: center;
+    width: 49%;
 }
 
-.rojo{
-    background-color: red;
+.elemento{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    border-bottom:1px solid #999;
+}
+
+.elemento_descripcion{
+    width: 40%;
+
+}
+
+.derecha{
+    width: 40%;
+}
+
+.elemento_valor{
+    display: inline-flex;
+}
+.elemento_porcentaje{
+    display: inline-flex;
+}
+
+.elemento_eliminar--btn{
+    border: 0;
+    background-color: rgb(247, 247, 247);
+    color: green;
+    font-size: 20px;
+}
+.elemento_eliminar--bt{
+    border: 0;
+    background-color: rgb(247, 247, 247);
+    color: red;
+    font-size: 20px;
 }

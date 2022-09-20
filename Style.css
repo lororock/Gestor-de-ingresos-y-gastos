@@ -159,7 +159,7 @@ h2{
 .footer {
     display: flex;
     flex-wrap: wrap;
-    min-height: 650px;
+    min-height: 510px;
     width: 100%;
     background-color: rgb(247, 247, 247);
 }
